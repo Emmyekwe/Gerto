@@ -5,8 +5,10 @@ export default function Navbar() {
     <nav className="bg-[#62BC5A] text-white p-4 shadow-md fixed w-full z-10 top-0">
       <div className="container mx-auto flex justify-between items-center">
         
-        <div className="flex items-center space-x-2">
-          <img src={Logo} alt="Company Logo" className="h-10 w-auto" />
+        <div  className="flex items-center space-x-2 cursor-pointer">
+            <a href="home">
+                <img src={Logo} alt="Company Logo" className="h-10 w-auto object-cover" />
+            </a>
         </div>
 
         <ul className="flex space-x-4">
