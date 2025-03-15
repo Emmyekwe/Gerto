@@ -11,7 +11,7 @@ export default function Navbar() {
             </a>
         </div>
 
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-4 text-xs md:text-md">
             <li><a href="#home" className="hover:underline">Home</a></li>
             <li><a href="#about" className="hover:underline">About Us</a></li>
             <li><a href="#why" className="hover:underline">Services</a></li>
