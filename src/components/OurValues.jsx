@@ -5,7 +5,7 @@ export default function OurValues() {
     <section id="team" className="py-16 px-4 bg-gray-100">
       <div className="container mx-auto text-center max-w-3xl">
         
-        <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Core Values</h2>
+        <h2 className="text-4xl font-bold text-[#00008B] mb-6">Our Core Values</h2>
 
         <p className="text-lg text-gray-600 leading-relaxed mb-8">
           At Gerto Technology Services Ltd., our core values drive everything we do. We are committed to delivering excellence through innovation, integrity, and collaboration.
@@ -25,7 +25,7 @@ export default function OurValues() {
               {value.icon}
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">{value.title}</h3>
-                <p className="text-gray-700">{value.desc}</p>
+                <p className="text-[#a9a9a9]">{value.desc}</p>
               </div>
             </div>
           ))}

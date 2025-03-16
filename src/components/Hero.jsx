@@ -9,7 +9,7 @@ const Hero = () => {
       style={{ backgroundImage: `url(${HeroImg})` }}
     >
       <div className="p-8 rounded-lg max-w-3xl">
-        <h1 className="text-5xl font-bold mb-4">Welcome to Gerto Technology Services Ltd.</h1>
+        <h1 className="text-5xl  font-bold mb-4">Welcome to Gerto Technology Services Ltd.</h1>
         <p className="text-lg">
           At Gerto Technology Services Ltd., we empower the oil and gas industry with cutting-edge 
           digital solutions and software packages designed to streamline operations, reduce costs, 

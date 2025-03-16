@@ -5,16 +5,14 @@ export default function OurServices() {
     <section id="services" className="py-16 px-4 bg-gray-100">
       <div className="container mx-auto text-center max-w-5xl">
         
-        <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
+        <h2 className="text-4xl font-bold text-[#00008B] mb-6">Our Services</h2>
 
         <p className="text-lg text-gray-600 leading-relaxed mb-10">
           At Gerto Technology Services Ltd., we provide innovative IT solutions tailored to the oil and gas industry, ensuring efficiency, security, and digital transformation.
         </p>
 
-        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
           
-          {/* Service Cards */}
           {[
             {
               icon: <WandSparklesIcon className="text-green-600 h-10 w-10" />,
@@ -46,7 +44,7 @@ export default function OurServices() {
               {service.icon}
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
-                <p className="text-gray-700 leading-relaxed">{service.desc}</p>
+                <p className="text-[#a9a9a9] leading-relaxed">{service.desc}</p>
               </div>
             </div>
           ))}

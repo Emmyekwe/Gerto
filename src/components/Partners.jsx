@@ -1,6 +1,5 @@
 import React from "react";
-import Partner1 from "../assets/lekan.jpg";
-import Partner2 from "../assets/germaine.jpg";
+import Partner1 from "../assets/dwc.jpeg";
 
 const Partners = () => {
   const partners = [Partner1];
@@ -8,7 +7,7 @@ const Partners = () => {
   return (
     <section id="partners" className="py-16 bg-gray-100">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6">Our Partners</h2>
+        <h2 className="text-3xl text-[#00008B] font-bold mb-6">Our Partners</h2>
         <p className="text-lg max-w-2xl mx-auto mb-8">
           We collaborate with leading organizations to drive innovation and deliver top-tier solutions in the oil and gas industry.
         </p>

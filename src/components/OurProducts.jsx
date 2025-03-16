@@ -5,7 +5,7 @@ export default function OurProducts() {
     <section id="products" className="py-16 px-4 bg-gray-100">
       <div className="container mx-auto text-center max-w-5xl">
         
-        <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Products</h2>
+        <h2 className="text-4xl font-bold text-[#00008B] mb-6">Our Products</h2>
 
         <p className="text-lg text-gray-600 leading-relaxed mb-10">
           We develop and deliver cutting-edge software solutions specifically designed for the oil and gas industry, ensuring efficiency, reliability, and seamless asset management.
@@ -31,7 +31,7 @@ export default function OurProducts() {
               {product.icon}
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">{product.title}</h3>
-                <p className="text-gray-700 leading-relaxed">{product.desc}</p>
+                <p className="text-[#a9a9a9] leading-relaxed">{product.desc}</p>
               </div>
             </div>
           ))}
